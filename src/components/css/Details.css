@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.details{
+    color: white;
+}
+.details-front{
+    height: 100vh;
+}
+.poster{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+.poster img{
+    display: block;
+    width: fill;
+    height: fill;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.name-sch{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 50px auto;
+}
+.event-name{
+    width: 60%;
+}
+.schedule{
+    width: 40%;
+    padding: 30px 0;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid rgba(255, 255, 255, 0.187);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.187);
+    border-radius: 10px;
+}
+.schedule>div{
+    width: fit-content;
+    margin: auto;
+}
+.timing{
+    display: flex;
+}
+.time{
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 10px;
+}
+.timing .time, .timing h1{
+    margin: 12px 18px 12px 0;
+    font-size: 20px;
+}
+.event-name button{
+    margin-top: 20px;
+}

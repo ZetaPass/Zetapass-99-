@@ -1,0 +1,45 @@
+.Card{
+    width: 300px;
+    height: 270px;
+    background-image: linear-gradient(to top right, rgb(65 65 65 / 56%), rgb(81 81 81 / 41%));
+    /* filter: opacity(.3); */
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.413);
+    border-right: 1px solid rgba(255, 255, 255, 0.413);
+}
+.Card h1{
+    font-size: 23px;
+}
+.cardimg{
+    width: fill;
+    height: 70%;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card1{
+    position: relative;
+    top: 35%;
+    left: 30%;
+}
+.card2{
+    position: relative;
+    top: -15%;
+    left: 40%;
+}
+.card3{
+    position: relative;
+    top: -49%;
+    left: 50%;
+}

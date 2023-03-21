@@ -1,0 +1,38 @@
+.title{
+  color: white;
+  font-size: 180px;
+}
+.eventbanner{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 150px; */
+  background-image: url(../Images/EventBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eventbanner .page-name{
+  margin-left: 150px;
+}
+.eventList {
+  color: white;
+  margin-bottom: 50px;
+}
+.eventList>h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 50px;
+}
+.lists {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+}
+.evcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

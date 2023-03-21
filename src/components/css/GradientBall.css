@@ -1,0 +1,35 @@
+.ball1{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(45deg,  #E52727, #EB0CD5);
+    position: absolute;
+    top: 35%;
+    border-radius: 50%;
+}
+.ball2{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(45deg,  #00F0FF, #0075FF);
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    border-radius: 50%;
+}
+.ball4{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(45deg,  #E52727, #EB0CD5);
+    position: absolute;
+    bottom: -75%;
+    right: 20%;
+    border-radius: 50%;
+}
+.ball3{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(45deg,  #00F0FF, #0075FF);
+    position: absolute;
+    bottom: -80%;
+    left: -10%;
+    border-radius: 50%;
+}

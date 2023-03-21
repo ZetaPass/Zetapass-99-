@@ -1,0 +1,28 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.logo{
+    width: 50%;
+}
+.ourlogo{
+    width: 200px;
+    height: 90px;
+    object-fit: cover;
+}
+.navbar{
+   padding: 0 70px;
+   width: 100%;
+   display: flex;
+   /* justify-content: space-between; */
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.nav-item{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

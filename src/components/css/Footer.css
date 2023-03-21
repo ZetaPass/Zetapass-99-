@@ -1,0 +1,39 @@
+.footerContainer{
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: white;
+    display: flex;
+}
+#email{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.subscribe{
+    
+    width: 40%;
+}
+.info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infodata{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading-f{
+    font-weight: bold;
+    font-size: larger;
+}
+.footer-item{
+
+    margin: 10px 0;
+    color:#E52727;
+    cursor: pointer;
+}

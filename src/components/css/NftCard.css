@@ -1,0 +1,27 @@
+.nftimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* margin: 23px; */
+
+}
+.content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #EB0CD5;
+    width: 280px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 12px;
+}
