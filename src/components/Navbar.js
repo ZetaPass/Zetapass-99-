@@ -32,6 +32,12 @@ export default function Navbar() {
           <Strokebtn title="Connect wallet" fill="fill btn"/>
           </Link>
         </div>
+
+        <div className = "event create">
+          <Link to = "/createEvent">
+            <Strokebtn title="Create event" href = '/createEvent' fill="fill btn"/>
+          </Link>
+        </div>
       </div>
     </div>
   );
